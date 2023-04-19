@@ -1,8 +1,13 @@
-lista1 = [10, 20, 30, 40, 50]
-lista2 = [10, 20, 60, 70]
+# Set (Listas)
+    # Similar a listas
+    # Evita numeros duplicados
+    # Nao utiliza index
 
-num1 = set(lista1)
-num2 = set(lista2)
+list1 = [10, 20, 30, 40, 50]
+list2 = [10, 20, 60, 70]
+
+num1 = set(list1)
+num2 = set(list2)
 
 print(num1 | num2)  # Union
 print(num1 - num2)  # Difference
